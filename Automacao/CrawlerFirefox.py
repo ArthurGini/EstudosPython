@@ -1,4 +1,9 @@
+'''
+Essa biblioteca esta com um erro na versao 0.25, estou esperando uma atualizacao para continuar
+'''
+
 from selenium import webdriver
+
 #acessoa a pagina na web
 driver= webdriver.Firefox()
 driver.get("http://econpy.pythonanywhere.com/ex/001.html")
