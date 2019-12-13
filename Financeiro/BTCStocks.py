@@ -8,6 +8,8 @@ from alpha_vantage import cryptocurrencies
 
 api_key = 'Z92Y0437GIRE1RCO'
 
+Exchange_Rate = CURRENCY_EXCHANGE_RATE (from_currency = USD, to_currency=BTC)
+
 ts = TimeSeries(key='api_key', output_format='pandas')
 function = cryptocurrencies.DIGITAL_CURRENCY_DAILY(symbol='BTC', market='USD', interval='day', outputsize='full')
 
