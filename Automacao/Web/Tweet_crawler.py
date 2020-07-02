@@ -1,3 +1,6 @@
+#Programa baseado no 
+# https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
+
 import tweepy
 import csv
 import pandas as pd
@@ -5,7 +8,6 @@ import pandas as pd
 #senha = senha.input('Senha do twitter: ')
 
 #Entrada de credenciais 
-
 
 #Acesso a plataforma
 auth = tweepy.OAuthHandler(consumer_key, consumer_pass)
