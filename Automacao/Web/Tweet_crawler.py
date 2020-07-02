@@ -5,9 +5,8 @@ import tweepy
 import csv
 import pandas as pd
 
-#senha = senha.input('Senha do twitter: ')
-
 #Entrada de credenciais 
+
 
 #Acesso a plataforma
 auth = tweepy.OAuthHandler(consumer_key, consumer_pass)
