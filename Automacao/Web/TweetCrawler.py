@@ -17,7 +17,11 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 csvfile = open('hash.csv', 'a')
 csvWriter = csv.writer(csvfile)
 
+#Ver que a só 7 dias anteriodes 
+
 #Criando a pesquisa
 for tweet in tweepy.Cursor(api.search, q="#RAP", count=5, lang="en", since ="2020-04-01").items():
     print(tweet.created_at, tweet.text)
     csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
+
+#Limpando a base
