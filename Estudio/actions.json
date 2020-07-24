@@ -1,0 +1,17 @@
+[
+    {
+        "type": "vlog",
+        "actions": {
+            "folders": ["Video", "audio", "imagens/fotos"],
+            "files": [{
+                "from": "localhost",
+                "to": ""
+            },
+            {
+                "from": "localhost/imagens",
+                "to": ""
+            }]
+        
+        }
+    }
+]
