@@ -109,6 +109,6 @@ def correlate(source, target):
     fingerprint_target = calculate_fingerprint(target)
 
     corr = compare(fingerprint_source, fingerprint_target, span, step)
-    #    max_corr_offset = get_max_corr(corr, source, target)
+    max_corr_offset = get_max_corr(corr, source, target)
 
     return

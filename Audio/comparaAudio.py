@@ -1,5 +1,11 @@
 # Codigo baseado em:
 # https://medium.com/@shivama205/audio-signals-comparison-23e431ed2207
+""" Estudo futuro:
+https://towardsdatascience.com/a-data-scientists-approach-to-visual-audio-comparison-fa15a5d3dcef
+
+
+"""
+
 
 #comparaAudio.py
 from correlation import correlate
@@ -20,4 +26,4 @@ def initialize():
 
 if __name__ == "__main__":
     SOURCE_FILE, TARGET_FILE = initialize()
-    correlate(SOURCE_FILE, TARGET_FILE)
+#    correlate(SOURCE_FILE, TARGET_FILE)

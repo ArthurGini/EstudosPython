@@ -7,7 +7,6 @@ import pandas as pd
 
 #Entrada de credenciais 
 
-
 #Acesso a plataforma
 auth = tweepy.OAuthHandler(consumer_key, consumer_pass)
 auth.set_access_token(access_token, access_token_secret)
