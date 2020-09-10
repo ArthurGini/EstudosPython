@@ -868,3 +868,73 @@ JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 55
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1599140350563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofileV5dn9g"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599140365947	Marionette	INFO	Listening on port 51952
+1599140366356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599141346385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofile7Hnmns"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599141357102	Marionette	INFO	Listening on port 52450
+1599141357429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599142103070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofilekTxdDw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142115789	Marionette	INFO	Listening on port 52722
+1599142116225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599142195410	Marionette	INFO	Stopped listening on port 52722
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599142207970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofile1qKA0q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142216910	Marionette	INFO	Listening on port 52808
+1599142217393	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599142273849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofilea73ZZ7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142284150	Marionette	INFO	Listening on port 52885
+1599142284296	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599142431098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofileZx2Djk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142439877	Marionette	INFO	Listening on port 52996
+1599142440156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599142451617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofileQ34oW3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142456377	Marionette	INFO	Listening on port 53065
+1599142456409	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599142553753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofilenl4iWw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599142559012	Marionette	INFO	Listening on port 53155
+1599142559030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599697811499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofile7ttuUd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599697824396	Marionette	INFO	Listening on port 49286
+1599697824514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599698277026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofilesADPnK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599698286682	Marionette	INFO	Listening on port 49584
+1599698287091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
+1599698424357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofile2SADp8"
+1599698453678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ARTHUR~1.GIN\\AppData\\Local\\Temp\\rust_mozprofileCUDA5U"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599698458846	Marionette	INFO	Listening on port 49960
+1599698458971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://partnercentral.awspartner.com/SiteLogin?startURL=%2FLmsSsoRedirect%3FRelayState%3D%252FAccount%252FTranscript%252FArchived, line 75: TypeError: document.getElementById(...) is null
