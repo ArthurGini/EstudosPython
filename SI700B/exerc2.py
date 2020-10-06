@@ -29,7 +29,7 @@
 1 jogador = 5 dados 
 1 jogador escolhe a face do dado (1 a 6)
 Palpita quantas faces iguais tem na mesa 
-
+''
 O prox jogador tem 2 alternativas:
     escolhe uma face e da um palpite, que deve ser necessariamente maior que o palpite anterior e passa para o próximo jogador.
 
