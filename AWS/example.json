@@ -1,0 +1,1014 @@
+{
+	"StorageDescriptor": {
+		"cols": {
+			"FieldSchema": [
+				{
+					"name": "numero_guia",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "sequencia_guia",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_reg",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "id_unimed",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "id_tempo",
+					"type": "int",
+					"comment": ""
+				},
+				{
+					"name": "id_servico",
+					"type": "decimal(38,0)",
+					"comment": ""
+				},
+				{
+					"name": "id_prestador",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "id_usuario",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "id_prest_solic",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "id_servico_pacote",
+					"type": "int",
+					"comment": ""
+				},
+				{
+					"name": "id_plano",
+					"type": "decimal(20,0)",
+					"comment": ""
+				},
+				{
+					"name": "emergencia",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_servico",
+					"type": "decimal(10,0)",
+					"comment": ""
+				},
+				{
+					"name": "reconsulta",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "qtde_autorizada",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "qtde_usada",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "funcao_prestador",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "situacao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_apresentacao",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_inclusao",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_atendimento",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_autorizacao_man",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_pagamento",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_solicit_servico",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "pertenc_gr_exec",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "usu_inclui_nota",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "diagnostico",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_usuario",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "internamento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_internamento",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "tipo_nascimento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_alta",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_alta",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_internamento",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "dias_internamento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "via_acesso",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "acomodacao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "usu_autorizacao_man",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "hora_atendimento",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "anestesista_cooperativa",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "auditor",
+					"type": "decimal(15,0)",
+					"comment": ""
+				},
+				{
+					"name": "auto_gerado",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_erro",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "tipo_prestador",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "categoria_usuario",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "loc_id_prestador",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "qtde_prestador",
+					"type": "decimal(12,3)",
+					"comment": ""
+				},
+				{
+					"name": "valor_ortese_protese",
+					"type": "decimal(12,2)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_documento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "especialidade",
+					"type": "int",
+					"comment": ""
+				},
+				{
+					"name": "nome_departamento_liberou",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nome_departamento_retorno",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "usu_retorno_nota",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "abrangencia",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "natureza",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "tipo_servico",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "fato_pagamento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "fato_faturamento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "valor_pago_filme",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_pago_custo",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_pago_servico",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_apresentado_honorario",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_apresentado_custo",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_apresentado_filme",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobrado_filme",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobrado_custo",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobrado_honorario",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cheio_servico",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cheio_custo",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cheio_filme",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "lct_numero",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "codigo_cid",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_nascimento",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_competencia",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "numero_autenticador",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_inclusao_guia",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "funcionario_inclusao_guia",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_alteracao_guia",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "funcionario_autorizacao_guia",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_carga",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_alteracao_nota",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "id_contratante",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "forma_cobranca",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "percentual_custo",
+					"type": "decimal(15,4)",
+					"comment": ""
+				},
+				{
+					"name": "percentual_antecipado",
+					"type": "decimal(5,2)",
+					"comment": ""
+				},
+				{
+					"name": "percentual_balcao",
+					"type": "decimal(5,2)",
+					"comment": ""
+				},
+				{
+					"name": "funcionario_alteracao_guia",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_servico_atendimento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_servico_atendimento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "numero_tabela_pagamento",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_gestacao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_aborto",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_transt_materno",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_comp_puerp",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_atend_rec_nato",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_comp_neonatal",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_baixo_peso",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_parto_cesareo",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_obst_parto_normal",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "qtde_nascidos_vivos",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "qtde_nascidos_vivos_premat",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "qtde_nascidos_mortos",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "qtde_obito_precoce",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "qtde_obito_tardio",
+					"type": "tinyint",
+					"comment": ""
+				},
+				{
+					"name": "codigo_familia",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "familia",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "cod_usuario_intercambio",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "nome_usuario_intercambio",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "cod_unimed_intercambio",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "tipo_amb_principal",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_amb_principal",
+					"type": "decimal(10,0)",
+					"comment": ""
+				},
+				{
+					"name": "nome_prestador_interc",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "unimed_prestador_interc",
+					"type": "int",
+					"comment": ""
+				},
+				{
+					"name": "codigo_prestador_interc",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "nome_operador",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_competencia_ant",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "st_oncologia_unimed",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_numero_tabela_cob",
+					"type": "decimal(10,0)",
+					"comment": ""
+				},
+				{
+					"name": "id_numero_tabela_pag",
+					"type": "decimal(10,0)",
+					"comment": ""
+				},
+				{
+					"name": "programa_inclusao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "cod_especialidade_intercambio",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "especialidade_intercambio",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_grupo_pag_prestador",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "descricao_grupo_pag_prestador",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "faixa_indice_pagamento",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "valor_indice_honorario",
+					"type": "decimal(16,4)",
+					"comment": ""
+				},
+				{
+					"name": "valor_indice_custo",
+					"type": "decimal(16,4)",
+					"comment": ""
+				},
+				{
+					"name": "percentual_honorario",
+					"type": "decimal(5,2)",
+					"comment": ""
+				},
+				{
+					"name": "nm_tecnico_responsavel",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nm_enfermeiro_responsavel",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "unimed_prest_solicitante_int",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_prest_solicitante_int",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nome_prestador_solicitante_int",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "st_auditoria_tempo_real",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "funcionario_inclui_guia_geral",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_inclusao_guia_geral",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "funcionario_inclui_nota_geral",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_inclusao_nota_geral",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "data_competencia_fat",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "nm_decl_nascido_vivo",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nm_decl_nascido_vivo_2",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nm_decl_nascido_vivo_3",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nm_decl_nascido_vivo_4",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "nm_decl_nascido_vivo_5",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "data_atualizacao",
+					"type": "timestamp",
+					"comment": ""
+				},
+				{
+					"name": "tipo_atendimento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "profissional_executante",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "descricao_mat_med",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "auto_id_contratante",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "sistema_origem",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "estrutura_evento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "descricao_fato",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "fato_faturamento_descricao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "fato_pagamento_descricao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "gerador_item_finan_autoid",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "item_financeiro_autoid",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "codigo_servico_tnumm",
+					"type": "decimal(10,0)",
+					"comment": ""
+				},
+				{
+					"name": "sequencia_evento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_evento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "percentual_filme",
+					"type": "decimal(5,2)",
+					"comment": ""
+				},
+				{
+					"name": "tp_conselho_nao_cooperado",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "cd_conselho_nao_cooperado",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "uf_conselho_nao_cooperado",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_origem_matmed",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_numero_tabela_pag_igp",
+					"type": "smallint",
+					"comment": ""
+				},
+				{
+					"name": "vl_honorario_pago_origem",
+					"type": "decimal(14,4)",
+					"comment": ""
+				},
+				{
+					"name": "vl_custo_pago_origem",
+					"type": "decimal(14,4)",
+					"comment": ""
+				},
+				{
+					"name": "vl_filme_pago_origem",
+					"type": "decimal(14,4)",
+					"comment": ""
+				},
+				{
+					"name": "numero_titulo",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "numero_contrato",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_tratamento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_arquivo",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "competencia_geracao",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobranca_filme",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobranca_custo",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "valor_cobranca_honorario",
+					"type": "decimal(14,2)",
+					"comment": ""
+				},
+				{
+					"name": "numero_fatura_intercambio",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "numero_ndc",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "numero_ndr",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "numero_doc_fornecedor",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "valor_taxa_adm",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "qtde_docs",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_tabela_servico",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_item_evento",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "codigo_servico_pacote",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_tabela_servico_pacote",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "tipo_contingente",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "evento_principal",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "numero_guia_manual",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "sequencia_guia_manual",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "codigo_servico_manual",
+					"type": "decimal(38,10)",
+					"comment": ""
+				},
+				{
+					"name": "tipo_servico_manual",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_protocolo_fatura",
+					"type": "int",
+					"comment": ""
+				},
+				{
+					"name": "protocolo",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "id_titulo_pagar",
+					"type": "string",
+					"comment": ""
+				},
+				{
+					"name": "horario_atendimento",
+					"type": "string",
+					"comment": ""
+				}
+			]
+		},
+		"location": "s3://datalake-unimedpr-raw/raw-dwun/DWUN/FATO_PRODUCAO975/year=2012/month=03/",
+		"inputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+		"outputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+		"compressed": "false",
+		"numBuckets": "-1",
+		"SerDeInfo": {
+			"name": "",
+			"serializationLib": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+			"parameters": {
+				"serialization.format": "1"
+			}
+		},
+		"bucketCols": [],
+		"sortCols": [],
+		"parameters": {
+			"sizeKey": "20562180",
+			"objectCount": "1",
+			"recordCount": "382570",
+			"averageRecordSize": "51",
+			"compressionType": "none",
+			"classification": "parquet",
+			"typeOfData": "file"
+		},
+		"SkewedInfo": {},
+		"storedAsSubDirectories": "false"
+	},
+	"parameters": {}
+}
